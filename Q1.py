@@ -2,9 +2,10 @@
 
 def even_no():
     i=1
-    while i <= 2:
+    print("Even numbers are from 1 to 20= ")
+    while i <= 20:
         if i%2==0:
-            print("Even numbers are from 1 to 20- ",i)
+            print(i, end=" ")
         i+=1
-        
+
 even_no()
